@@ -57,6 +57,149 @@ Threat Detection Module
      ▼
 Alert & Logging System
 ```
+KEY LOGGER DETECTION IN NETWORKING DOMAIN
+
+SYSTEM ARCHITECTURE
+
+```text
+┌─────────────────────────────────────────────┐
+│                 LOGIN SYSTEM                │
+├─────────────────────────────────────────────┤
+│ Register                                    │
+│ Login                                       │
+│ Authentication                              │
+└─────────────────────────────────────────────┘
+                     │
+                     ▼
+
+┌─────────────────────────────────────────────┐
+│                ADMIN MODULE                 │
+└─────────────────────────────────────────────┘
+
+Admin Dashboard
+│
+├── User Management
+│   ├── View Users
+│   ├── Add Users
+│   ├── Delete Users
+│   └── Manage Roles
+│
+├── Activity Logs
+│   ├── Employee Activities
+│   ├── Login History
+│   ├── Security Events
+│   └── Monitoring Logs
+│
+├── Reports
+│   ├── User Reports
+│   ├── Security Reports
+│   ├── Threat Reports
+│   └── Performance Reports
+│
+├── Settings
+│   ├── Admin Settings
+│   ├── System Settings
+│   ├── Security Policies
+│   └── Notification Settings
+│
+├── Incident Reports
+│   ├── Incident Creation
+│   ├── Incident Tracking
+│   ├── Incident Resolution
+│   └── Incident History
+│
+├── Alerts
+│   ├── High Risk Alerts
+│   ├── Medium Risk Alerts
+│   ├── Low Risk Alerts
+│   └── Alert History
+│
+└── Detection Engine
+    │
+    ├── Process Monitoring
+    │   ├── Running Processes
+    │   ├── Suspicious Processes
+    │   ├── CPU Monitoring
+    │   └── Memory Monitoring
+    │
+    ├── Suspicious Loop Detection
+    │   ├── Infinite Loops
+    │   ├── Repeated Actions
+    │   ├── Background Loops
+    │   └── Resource Abuse Detection
+    │
+    ├── Behavior Analysis
+    │   ├── User Behavior
+    │   ├── Process Behavior
+    │   ├── Network Behavior
+    │   └── Risk Scoring
+    │
+    ├── Alert Generation
+    │   ├── Threat Alerts
+    │   ├── Malware Alerts
+    │   ├── Keylogger Alerts
+    │   └── System Alerts
+    │
+    └── Reporting Engine
+        ├── Threat Reports
+        ├── Alert Reports
+        ├── Incident Reports
+        └── Activity Reports
+
+
+┌─────────────────────────────────────────────┐
+│              EMPLOYEE MODULE                │
+└─────────────────────────────────────────────┘
+
+Employee Dashboard
+│
+├── Profile
+│   ├── Personal Details
+│   ├── Department
+│   └── Status
+│
+├── Add Activity
+│   ├── Activity Title
+│   ├── Description
+│   ├── Status
+│   └── Date
+│
+├── My Activities
+│   ├── Activity History
+│   ├── Activity Status
+│   └── Activity Reports
+│
+└── Security Awareness
+    ├── Cyber Security Tips
+    ├── Threat Awareness
+    ├── Safe Browsing
+    └── Password Security
+
+
+┌─────────────────────────────────────────────┐
+│            DATABASE STORAGE                 │
+└─────────────────────────────────────────────┘
+
+Users Table
+Activities Table
+Processes Table
+Alerts Table
+Incidents Table
+Reports Table
+Logs Table
+
+
+┌─────────────────────────────────────────────┐
+│             OUTPUT MODULE                   │
+└─────────────────────────────────────────────┘
+
+Dashboard Visualization
+Threat Detection
+Alert Generation
+Incident Reporting
+Security Reporting
+Performance Monitoring
+```
 
 ## Applications
 
